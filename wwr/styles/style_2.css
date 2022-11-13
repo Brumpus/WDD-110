@@ -85,7 +85,6 @@ body{
     font-size: 48px;
     grid-column:2/4;
     margin-left: 24px;
-    content: center;
     margin-top: 24px;
 }
 
@@ -93,8 +92,8 @@ body{
 
 main {
     display: grid;
-    grid-template-columns: repeat(1fr, 11);
-    grid-template-rows: repeat(1fr, 11);
+    grid-template-columns: repeat(1fr, 10);
+    grid-template-rows: repeat(1fr, 10);
 }
 
 .question {
